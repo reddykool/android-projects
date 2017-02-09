@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">KidZone</string>
+    <string name="category_colors">Colors</string>
+    <string name="category_family_members">Family</string>
+    <string name="category_lullabies">Lullabies</string>
+    <string name="category_animals">Animals</string>
+    <string name="category_rhymes">Rhymes</string>
+    <string name="category_dance_songs">Dance Songs</string>
+    <string name="category_numbers">Numbers</string>
+    <string name="category_phrases">Phrases</string>
+    <string name="category_videos">Videos</string>
+    <string name="category_birds">Birds</string>
+    <string name="category_vehicles">Vehicles</string>
+    <string name="category_insects">Insects</string>
+</resources>

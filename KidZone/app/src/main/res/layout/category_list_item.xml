@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/category_list_item_height"
+    android:background="@color/colorListItem">
+
+    <ImageView
+        android:id="@+id/list_item_image_dp"
+        android:layout_width="@dimen/category_list_dp_width"
+        android:layout_height="@dimen/category_list_dp_width"
+        android:layout_alignParentLeft="true"
+        android:layout_centerInParent="true"
+        android:src="@drawable/ic_music_note_black_24dp"
+        android:layout_marginLeft="@dimen/category_item_padding"/>
+
+    <LinearLayout
+        android:id="@+id/list_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/category_list_item_height"
+        android:paddingLeft="@dimen/category_item_padding"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/list_item_image_dp">
+
+        <TextView
+            android:id="@+id/list_item_text_primary"
+            style="@style/CategoryTextStyle"
+            android:textStyle="bold"
+            tools:text="Primary Text"
+            android:gravity="bottom"/>
+
+        <TextView
+            android:id="@+id/list_item_text_secondary"
+            style="@style/CategoryTextStyle"
+            tools:text="Secondary Text"
+            android:gravity="top"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/list_item_image_icon"
+        android:layout_width="@dimen/category_icon_width"
+        android:layout_height="@dimen/category_icon_height"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="@dimen/category_item_padding"
+        android:src="@drawable/ic_play_circle_outline_black_24dp"/>
+
+</RelativeLayout>
