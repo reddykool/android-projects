@@ -98,6 +98,8 @@ public class AmimalsFragment extends Fragment {
         // Create a list of Animals data to populate grid items.
         final ArrayList<GridItemData> animalsList = new ArrayList<GridItemData>();
         //animalsList.add("Buffalo");
+        animalsList.add(new GridItemData("Bear", R.drawable.animal_bear, R.raw.default_audio));
+        animalsList.add(new GridItemData("Camel", R.drawable.animal_camel, R.raw.default_audio));
         animalsList.add(new GridItemData("Cat", R.drawable.animal_cat, R.raw.default_audio));
         animalsList.add(new GridItemData("Cow", R.drawable.animal_cow, R.raw.default_audio));
         animalsList.add(new GridItemData("Deer", R.drawable.animal_deer, R.raw.default_audio));
@@ -111,6 +113,7 @@ public class AmimalsFragment extends Fragment {
         animalsList.add(new GridItemData("Lion", R.drawable.animal_lion, R.raw.default_audio));
         animalsList.add(new GridItemData("Monkey", R.drawable.animal_monkey, R.raw.default_audio));
         animalsList.add(new GridItemData("Pig", R.drawable.animal_pig, R.raw.default_audio));        //animalsList.add("Ox");
+        animalsList.add(new GridItemData("Rabbit", R.drawable.animal_rabbit, R.raw.default_audio));
         animalsList.add(new GridItemData("Rat", R.drawable.animal_rat, R.raw.default_audio));
         animalsList.add(new GridItemData("Rhinoceros", R.drawable.animal_rhinoceros, R.raw.default_audio));
         animalsList.add(new GridItemData("Sheep", R.drawable.animal_sheep, R.raw.default_audio));

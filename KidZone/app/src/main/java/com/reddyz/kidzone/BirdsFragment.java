@@ -31,6 +31,7 @@ public class BirdsFragment extends Fragment {
 
         // Create a list of Birds data to populate grid items.
         final ArrayList<GridItemData> birdsList = new ArrayList<GridItemData>();
+        birdsList.add(new GridItemData("Bulbul", R.drawable.bird_bulbul, R.raw.default_audio));
         birdsList.add(new GridItemData("Crane", R.drawable.bird_crane, R.raw.default_audio));
         birdsList.add(new GridItemData("Crow", R.drawable.bird_crow, R.raw.default_audio));
         birdsList.add(new GridItemData("Duck", R.drawable.bird_duck, R.raw.default_audio));

@@ -99,12 +99,15 @@ public class ColorsFragment extends Fragment {
         colorsList.add(new GridItemData("Black", R.drawable.color_black, R.raw.default_audio));
         colorsList.add(new GridItemData("Blue", R.drawable.color_blue, R.raw.default_audio));
         colorsList.add(new GridItemData("Brown", R.drawable.color_brown, R.raw.default_audio));
+        colorsList.add(new GridItemData("Gold", R.drawable.color_gold, R.raw.default_audio));
         colorsList.add(new GridItemData("Green", R.drawable.color_green, R.raw.default_audio));
         colorsList.add(new GridItemData("Grey", R.drawable.color_grey, R.raw.default_audio));
+        colorsList.add(new GridItemData("Maroon", R.drawable.color_maroon, R.raw.default_audio));
         colorsList.add(new GridItemData("Orange", R.drawable.color_orange, R.raw.default_audio));
         colorsList.add(new GridItemData("Pink", R.drawable.color_pink, R.raw.default_audio));
         colorsList.add(new GridItemData("Purple", R.drawable.color_purple, R.raw.default_audio));
         colorsList.add(new GridItemData("Red", R.drawable.color_red, R.raw.default_audio));
+        colorsList.add(new GridItemData("Violet", R.drawable.color_violet, R.raw.default_audio));
         colorsList.add(new GridItemData("White", R.drawable.color_white, R.raw.default_audio));
         colorsList.add(new GridItemData("Yellow", R.drawable.color_yellow, R.raw.default_audio));
         //colorsList.add(new GridItemData("Grey"));
