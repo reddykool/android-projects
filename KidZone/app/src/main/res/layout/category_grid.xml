@@ -4,13 +4,13 @@
     android:id="@+id/category_grid_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="@dimen/grid_spacing"
-    android:columnWidth="150dp"
+    android:columnWidth="@dimen/category_grid_item_width"
     android:numColumns="auto_fit"
     android:stretchMode="columnWidth"
     android:gravity="center"
     android:drawSelectorOnTop="true"
     android:verticalSpacing="@dimen/grid_spacing"
+    android:background="@color/colorPrimaryLight"
     android:horizontalSpacing="@dimen/grid_spacing">
 
 </GridView>

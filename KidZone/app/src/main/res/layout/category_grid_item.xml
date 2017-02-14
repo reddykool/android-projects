@@ -10,7 +10,7 @@
     <ImageView
         android:id="@+id/grid_item_image_dp"
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="@dimen/category_grid_item_height"
         android:scaleType="centerCrop"
         android:src="@drawable/workinprogress"/>
 

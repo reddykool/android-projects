@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.GridView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -48,17 +49,17 @@ public class MainActivity extends AppCompatActivity {
         categoriesList.add(new ListItemData("Videos", R.drawable.category_videos));
 
         // Get the listview resource from xml to populate the categories
-        ListView mainListView = (ListView) findViewById(R.id.main_activity_list);
+        GridView mainView = (GridView) findViewById(R.id.main_activity_list);
 
         // Create the adapter to populate and dynamically show single row list categories.
         // TBD: Change the classnames to corresponding correct localised strings.
         MainListItemAdapter itemAdapter = new MainListItemAdapter(this, R.layout.main_list_item, categoriesList);
 
         // Link the adapter to Listview.
-        mainListView.setAdapter(itemAdapter);
+        mainView.setAdapter(itemAdapter);
 
         // When clicked on the list items, Open the correponding activity(thru Intents)
-        mainListView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+        mainView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 String classString = mCategoriesClasses[position];
